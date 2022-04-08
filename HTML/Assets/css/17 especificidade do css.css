@@ -1,0 +1,44 @@
+/* Ordem de "importância no css
+1- ID
+2- Classes
+3- Atributos
+4- Pseudo-classes
+5- Elementos e Pseudo-elementos 
+
+# chama ID
+. chama Classe
+
+
+!important dá prioridade MÁXIMA pro código em questão.
+*/
+
+/* #p{
+    background: sandybrown;
+} */
+
+#p.p{
+    background: red !important;
+}
+
+p#p.p{
+    background: blue;
+    color: white;
+}
+
+body#b p#p.p{
+    background: black;
+    color: white;
+}
+
+.cor::selection{
+    color: blue;
+}
+
+.cor{
+    background: red;
+}
+
+.foto{
+    width: 300px;
+    color: pink;
+}

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang ="pt-BR">
+    <head>
+    <meta charset="UTF-8">
+    <meta name = "viewport"
+    content="width=device-width, 
+    initial-scale=1.0">
+    <title>Logo Netflix</title>
+
+    <style>
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #1a1a1a;
+            height: 100vh;
+        }
+
+        div{
+            background: red;
+            height: 250px;
+            width: 60px;
+            position: relative;
+        }
+
+        div::before {
+            background: red;
+            height: 250px;
+            width: 60px;
+            position: absolute;
+            content: '';
+            left: 90px;
+        }
+
+        div::after{
+            background: #1a1a1a;
+            height: 20px;
+            width: 170px;
+            position: absolute;
+            content: '';
+            left: -15px;
+            bottom: -10px;
+            border-radius: 100%;
+        }
+
+        span{
+            position: absolute;
+            height: 250px;
+            width: 60px;
+            background: red;
+            left: 46px;
+            transform: skew(19deg);
+            box-shadow: 0px 0 10px -4px;
+        }
+    </style>
+
+    </head>
+
+
+    <body>
+
+        <div>
+            <span></span>
+        </div>
+    </body>

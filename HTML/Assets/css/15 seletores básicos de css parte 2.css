@@ -1,0 +1,35 @@
+*{
+    margin: 5px;
+    padding: 0px;
+}
+
+.pai p+h1{
+    color: red;
+}
+
+.papai{
+    margin: 20px;
+}
+
+div.papai .um + .dois{
+    color: blue;
+}
+
+div.papai .um ~ .dois{
+    color: mediumorchid;
+}
+
+[meu-atributo*="cl"]{
+    color: darkgreen;
+}
+
+[meu-atributo~="cl"]{
+    color: darkgreen;
+}
+
+/* ^= se o atributo começar com o nome do valor, já ta valendo */
+
+[checked]{
+    width: 50px;
+    height: 50px;
+}

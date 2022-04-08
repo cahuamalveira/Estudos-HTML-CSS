@@ -1,0 +1,17 @@
+p{
+    color: red;
+    background-color: black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: bold;
+    /* direction: rtl; RRRight To Left */
+    letter-spacing: 2px;
+    word-spacing: 10px;
+    line-height: 35px;
+    /* text-align: center; */
+    text-decoration: overline line-through;
+    text-indent: 50px;
+    text-shadow: 2.5px 2.5px 5px white;
+    text-transform: capitalize;
+}

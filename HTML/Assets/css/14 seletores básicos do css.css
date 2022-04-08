@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    border: 0;
+}
+
+/* p{
+    color: blue;
+} */
+
+h1, p{
+    color: darkgreen;
+}
+
+/* body div section p,
+body div section h1{
+    color: pink;
+    text-align: right;
+} */
+
+.heading{
+    background: red;
+}
+
+.main-content .heading{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+div.main-content h3.h{
+    color: blueviolet;
+}
+
+div{
+    color: initial;
+    margin-left: 20px;
+}
+
+.pai > .filha > .filha{
+    color: darkorange;
+}
+/* substituir esse color por background-color pra ver a merda */
+
+.foto{
+    width: 300px;
+    height: 150px;
+    padding: 15px;
+}

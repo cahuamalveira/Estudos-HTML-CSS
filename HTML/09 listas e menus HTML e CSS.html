@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang ="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name = "viewport"
+    content="width=device-width, 
+    initial-scale=1.0">
+    <title>Aula 09</title>
+
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    nav {
+        background: rgba(0, 0, 0, 0.5);
+    }
+    
+    nav ul li a {
+        color: red;
+        cursor: pointer;
+        text-decoration: underline;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        margin: none;
+        background: paleturquoise;
+        padding: 25px 70px;
+        display: block;
+        margin-left: 15px;
+        text-transform: uppercase;
+     }
+
+     nav{
+        display: flex;
+        align-items: center;
+     }
+
+    nav ul{
+        display: flex;
+        list-style: none;
+    }
+    
+    nav a:hover{
+        background: chocolate;
+    }
+
+    .texto{
+        margin-left: 30px;
+    }
+</style>
+</head>
+
+<body>
+<h1>Fontes estudo de HTML.</h1>
+
+<p>fonte de informações sobre HTML: <a href="https://www.w3schools.com/html/"target=_blank_>w3schools</a></p>
+
+<nav>
+    <ul>
+    <li><a href="#">Home</a></li>
+    <li><a href="https://pbs.twimg.com/media/FMtYeRTWUAYO76b?format=png&name=small" target="_blank_">About</a></li>
+    <li><a href="https://pbs.twimg.com/media/FMp1cusXoAYTW4X?format=jpg&name=large" target="_blank">Products</a></li>
+    </ul>
+    
+</nav>
+
+<ul> <!--<UL> significa lista não definida.-->
+    <li>Item 1</li>
+    <li>Item 2</li>
+    <li>Item 3</li>
+</ul>
+
+    <ol type="1" start="2">
+        <li>Item 3</li>
+        <li>Item 1</li>
+        <li>Item 8</li>
+</ol>
+<p>-----------------------------------------------------------------------------------------------------------</p>
+<dl> <!--DL = Description list.
+        DT= o item que vai ser descrito.
+        DD = a descrição.-->
+    <dt>Coca-Cola</dt>
+    <dd>Mistura Gaseificada preta.</dd>
+</dl>
+<p>---------------------------------------------------------------------------------------------------------------</p>
+<p class="texto">
+    Com Felipe Endres e Anderson Gomes (da comissão permanente) como auxiliares de Umberto Louzer, o Atlético-GO descartou contratar um novo auxiliar técnico para a vaga de Eduardo Souza, <a style="background: red; padding: 2px; display: block;"
+    href="https://twitter.com/AdsonBatista" target="_blank_";>@AdsonBatista</a> já conhecia Felipe Endres e vê o clube muito bem servido de auxiliares
+</p>
+
+</body>
+
+</html>

@@ -1,0 +1,57 @@
+/* 1em = 50px */
+
+html{
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.pesquisa{
+    font-size: 50px;
+}
+
+.estudos {
+    font-size: 25px;
+}
+
+#one{
+    text-align: center;
+}
+
+a.tabela{
+    color: deeppink;
+}
+
+.pai {
+    width: 100%;
+    height: 100vh;
+    /* width: 60rem;
+    height: 30rem; */
+    background: blue;
+    overflow: hidden;
+}
+
+.pai > div {
+    width: 50%;
+    height: rem;
+    background: greenyellow;
+}
+
+.color-two{
+    background: turquoise;
+}
+
+.color-three{
+    background: darkgoldenrod;
+}
+p{
+    font-size: 2vmax;
+    font-style: italic;
+    /* font-size: 2.3rem; */
+    color: rgb(168, 35, 35);
+    font-weight: bold;
+}

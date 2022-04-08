@@ -1,0 +1,12 @@
+.caixa{
+    background: blue;
+    width: 600px;
+    height: 120px;
+}
+
+.caixa2{
+    background: red;
+    width: 600px;
+    height: 120px;
+    text-align: center;
+}
